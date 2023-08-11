@@ -1,1 +1,1 @@
-# AniRing-kikaku.github.io
+# AniRingを紹介するためのウェブサイトを作成していくためのリポジトリです。
