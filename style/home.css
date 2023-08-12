@@ -1,0 +1,157 @@
+
+/*==================================================
+トプ画用のcss
+===================================*/
+.top_photo{
+  width: 80%;
+  margin:0 auto;
+  padding:2%;
+}
+.top_photo img{
+  width: 100%;
+  right:10%;
+}
+/*==================================================
+トプ画用のcss
+===================================*/
+/*==================================================
+
+===================================*/
+.gmmesse{
+  margin-left: auto; 
+  margin-right: auto;
+  width: 80%;
+}
+.gmmesse h1{
+  text-align: center;
+  font-size:1.5em;
+  color: #ffffff;
+}
+.gmmesse p{
+  padding: 3%;
+  line-height:1.5;
+  text-align: justify;
+}
+/*==================================================
+AniRingって何？css
+===================================*/
+/*==================================================
+最近のトピックcss
+===================================*/
+.topic{
+  padding: 3%;
+  line-height:1.5;
+  text-align: justify;
+}
+/*==================================================
+最近のトピックcss
+===================================*/
+/*==================================================
+レスポンスデザイン用のcss
+===================================*/
+#page {
+  width: 100%;
+  border-color: yellow;
+ 
+}
+#page:after {
+  content:'';
+  display: block; 
+  clear:both;
+}
+#content {
+  width: 75%;
+  float: left;
+}
+#sidebar {
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+/*==================================================
+レスポンスデザイン用のcss
+===================================*/
+@media screen and (max-width: 700px) {
+  #page {
+    border-color: red;
+  }
+  #content {
+    width: 100%;
+  }
+  #sidebar {
+    width: 100%;
+    padding: 30px;
+  }
+  
+}
+/*==================================================
+レスポンスデザイン用のcss
+===================================*/
+.calendar{
+  position: relative; /* 今の位置を基準 */
+  left: 5%;
+  width: 90%;
+  right:5%;
+}
+.homel h1{
+  position: relative; /* 今の位置を基準 */
+  left: 5%;
+  width: 90%;
+  right:5%;
+  text-align: center;
+  font-size:1.5em;
+  color: #ffffff;
+}
+.twitter-timeline{
+  width: 100%;
+}
+hr{
+  border: none;
+  border-bottom: 1px solid #333;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+.linked-content {
+  margin: 5px;
+}
+
+.linked-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.linked-content img {
+  width: 100%;
+  height: auto;
+}
+
+.image-buttons {
+  text-align: center;
+}
+
+.image-display img {
+  width: 100%;
+  height:400px;
+}
+
+.image-display{
+  width: 80%;
+  margin:0 auto;
+  padding:2%;
+}
+.image-buttons button{
+  position: relative;
+  top:-70px;
+  height: 3%;
+  border:#333;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}

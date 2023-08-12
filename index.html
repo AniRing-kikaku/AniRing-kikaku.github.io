@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/home.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/home.js"></script>
+  <title>AniRing</title>
+</head>
+
+<body>
+  <script src="js/headerfooter.js"></script>
+  <script>
+    header();
+    footer();
+  </script>
+
+  <div class="home">
+    <!-- <div class="top_photo"><img src="imgs/home11.png"></div> -->
+    
+    
+    
+    <div class="image-display">
+      <img id="image1" src="imgs/AniRing 企画部.png" alt="Image 1">
+      <img id="image2" src="imgs/AniRing 企画部 (1).png" alt="Image 2" style="display:none">
+      <img id="image3" src="imgs/AniRing 企画部 (2).png" alt="Image 3" style="display:none">
+    </div>
+    <div class="image-buttons">
+      <button onclick="showImage('image1')">　　　　　　</button>
+      <button onclick="showImage('image2')">　　　　　　</button>
+      <button onclick="showImage('image3')">　　　　　　</button>
+    </div>
+    
+    <div id="page">
+      <article id="content">
+        <div class="gmmesse">
+          <h1 class="sub">AniRingって何？</h1>
+          <p>
+            　《繋がる👌。》｜AniRing(えにりんぐ)は同じ学校の同級生で活動中！｜ 学生生活を彩り、色んな人たちとの縁を大切に！｜2023/1/19始動｜活動での気づきをアウトプットします！｜フォローよろしくお願いします！
+          </p>
+        </div>
+        <div class="homel">
+          <h1 class="sub">KAITpiaのスケジュール</h1>
+            <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showNav=1&showDate=1&src=YW5pcmluZy5qcEBnbWFpbC5jb20&color=%239E69AF" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </article>
+      <aside id="sidebar">
+        <div>最近のトピック</div>
+        <hr>
+        <div class="topic">
+          <p>【8月12日】企画部新メンバー加入/まっちゃんを迎え新体制でAniRing企画部始動します!!</p><hr>
+          <p>【8月12日】夏イベ開催決定/『僕らののアオナツAniRing遠足イベント』</p>
+          <hr>
+          <p>【8月12日】AniRingウェブサイト作成/計画勝手に創めたけど許して.</p>
+        </div>
+        <div class="homer">
+          <a class="twitter-timeline" data-width="auto" data-height="350"
+            href="https://twitter.com/AniRing">Tweets by PiaKait</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.headpic{
+  width: 100%;
+  height: 5vw;
+}
+.headpic img{
+  padding-top: 0.8vw;
+  padding-left: 20%;
+  height: 7.5vw;
+}
+.headmenu table{
+  width: 100%;
+}
+.headmenu td{
+  text-align: center;
+  width: 14.28%;/*ほぼ７分の1にする*/
+  border:solid #FFFFFF 0.5px
+}
+.headmenu a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+}
+.headmenu div{
+  font-size: 1.5vw;
+}

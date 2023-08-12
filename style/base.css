@@ -1,0 +1,15 @@
+.main{
+  /* background-color:#FF7A00 ; */
+  background-image: linear-gradient(90deg, #ff6bb8, #ffb74b);
+}
+.sub{
+  /* background-color: #FD8E28; */
+  background-image: linear-gradient(90deg, #ff6bb8, #ffb74b);
+}
+p{
+  font-family:'BIZ UDGothic';
+  color: #383838;
+}
+h1,h2,h3,h4,div{
+  font-family: 'UD Digi Kyokasho N-B';
+}
