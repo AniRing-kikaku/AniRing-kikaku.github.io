@@ -138,19 +138,19 @@ hr{
 }
 
 .image-display img {
-  width: 100%;
-  height:400px;
+  width: 80%;
+  height: auto;
 }
 
 .image-display{
   width: 80%;
   margin:0 auto;
-  padding:2%;
+  padding:2% 2% 2% 15%;
 }
-.image-buttons button{
+.image-buttons button img{
   position: relative;
   top:-70px;
-  height: 3%;
+  height: 5px;
   border:#333;
   box-sizing: border-box;
   background-color: aliceblue;
